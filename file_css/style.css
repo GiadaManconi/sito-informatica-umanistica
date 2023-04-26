@@ -1,0 +1,51 @@
+body{
+    margin: 0px; 
+    padding: 0px !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+
+#immagineHome{
+    height: 500px;
+    width: auto;
+}
+
+header{
+    background-color: #292cd5;
+    color: aliceblue;
+}
+
+header,section{
+    padding-top : 5%;
+    padding-right: 5%;
+    padding-bottom: 0px;
+    padding-left: 5%;
+}
+
+.link_bianco {
+    color: aliceblue;
+}
+
+.link_attivo {
+    color: #292cd5;
+    background-color: white;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 15px 15px 0px 15px;
+}
+
+img {
+    opacity: 1.0;
+    transition: opacity .35s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.5;
+}
